@@ -1,0 +1,16 @@
+{
+  "name": "graphql-subscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm start --prefix server",
+    "install": "npm install --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "frontend:dev": "npm start --prefix client",
+    "frontend:build": "npm build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
